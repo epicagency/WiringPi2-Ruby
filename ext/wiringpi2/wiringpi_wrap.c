@@ -4236,7 +4236,7 @@ SWIGEXPORT void Init_wiringpi2(void) {
   size_t i;
   
   SWIG_InitRuntime();
-  mWiringpi2 = rb_define_module("Wiringpi2");
+  mWiringpi2 = rb_define_module("WiringPi2");
   
   SWIG_InitializeModule(0);
   for (i = 0; i < swig_module.size; i++) {
